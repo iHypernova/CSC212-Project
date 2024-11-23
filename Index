@@ -8,7 +8,7 @@ public class Index {
                 docID = 0;  
                 index = new LinkedList <Vocabulary>();  
             }  
-  
+   
             public Document(int id, String []  words) {  
                 docID = id;  
                 index = new LinkedList <Vocabulary>();  
