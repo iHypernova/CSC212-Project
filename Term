@@ -8,7 +8,7 @@ public class Term {
             docIDS [i] = false;  
         word = new Vocabulary("");  
     }  
-  
+   
     public Term(String word, boolean [] docIDS) {  
         this.word = new Vocabulary(word);  
         this.docIDS = new boolean [docIDS.length];  
