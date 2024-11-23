@@ -11,7 +11,7 @@ public class Inverted_Index_AVLRanked {
            AVLTree <Integer, AVLTree <String,Rank>> AVLrank;   
            frequency [] freqs = new frequency[50];  
               
-              
+               
               
             public Inverted_Index_AVLRanked() {  
                 AVLrank = new AVLTree <Integer, AVLTree <String,Rank>>();  
