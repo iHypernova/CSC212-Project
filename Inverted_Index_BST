@@ -14,7 +14,7 @@ public class Inverted_Index_BST {
                    Term t = new Term ();  
                    t.setVocabulary(new Vocabulary (word));  
                    t.add_docID(docID);  
-                   invertedindexBST.insert(word, t);  
+                   invertedindexBST.insert(word, t);   
                    return true;  
                }  
                else  
