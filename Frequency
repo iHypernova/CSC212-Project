@@ -8,7 +8,7 @@ public class Frequency {
     }  
       
     public Frequency(String word, int Freq) {  
-        this.word = new Vocabulary(word);  
+        this.word = new Vocabulary(word);   
         this.Freq = Freq;  
     }  
       
