@@ -10,7 +10,7 @@ public class Inverted_Index_AVL {
             {  
                if (invertedindexAVL.empty())  
                {  
-                   Term t = new Term ();  
+                   Term t = new Term ();   
                    t.setVocabulary(new Vocabulary (word));  
                    t.add_docID(docID);  
                    invertedindexAVL.insert(word, t);  
