@@ -13,7 +13,7 @@ public class Search_Engine {
     
     public Search_Engine ()  
     {  
-        index = new Index();  
+        index = new Index();   
         invertedindex = new Inverted_Index();  
           
         invertedindexBST = new Inverted_Index_BST ();  
