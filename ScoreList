@@ -1,6 +1,6 @@
 class ScoreList {  
     private class Node {  
-        DocScore data;  
+        DocScore data;   
         Node next;  
   
         Node(DocScore data) {  
