@@ -10,7 +10,6 @@ public class AVLTree<K extends Comparable<K>, T>{
                 AVLNode<K,T> right; // pointer to right child  
                 int bf; // balance factor of the node  
   
-                    /** Creates a new instance of BTNode */  
                     public AVLNode() {  
                             this.key = null;    
                             this.data = null;  
