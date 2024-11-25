@@ -1,0 +1,17 @@
+class DocScore {
+    int docID;
+    int score;
+
+    
+    public DocScore(int docID) {
+        this.docID = docID;
+        this.score = 0;
+    }
+
+    public boolean isGreaterThan(DocScore other) {
+        if (this.score != other.score) {
+            return this.score > other.score;
+        }
+        return this.docID < other.docID;
+    }
+}
