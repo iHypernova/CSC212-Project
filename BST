@@ -148,9 +148,9 @@ public class BST<K extends Comparable<K>, T>{
             return true;  
         }  
   
-        // Remove the element with key k if it exists and return true. If the element  
+        // Remove the element with key k if it exists and return true. If  the element  
         // does not exist false is returned (the position of current is unspecified  
-        // after calling this method). This method must be O(log(n)) in average.  
+        // after calling this method). This method must be O(log(n))  in average.  
         public boolean remove(K key)  
         {  
             Boolean removed = new Boolean(false);  
