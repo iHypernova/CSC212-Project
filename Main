@@ -6,7 +6,7 @@ public class Main {
     public static Search_Engine SE = new Search_Engine();
 
     public static int menu() {
-        System.out.println("\n############### MENU ###############");
+        System.out.println("\n############# MENU ############");
         System.out.println("1. Boolean Retrieval");
         System.out.println("2. Ranked Retrieval");
         System.out.println("3. Indexed Documents");
