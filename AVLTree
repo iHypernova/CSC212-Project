@@ -54,7 +54,7 @@ public class AVLTree<K extends Comparable<K>, T>{
                     }  
             }  
   
-        //=============================================================================      
+        //============================================================      
         private AVLNode<K,T> root;  
         private AVLNode<K,T>  curr;  
         private int count;  
@@ -96,7 +96,7 @@ public class AVLTree<K extends Comparable<K>, T>{
                 curr.data = e;  
         }  
   
-        //searches for the key in the AVL, returns the data or null (if not found).  
+        //searches for the key in the AVL,  returns the data or null (if not found).  
         private T searchTreeHelper(AVLNode<K,T> node, K key) {  
                    // Place your code here\\  
                     if (node == null)  
@@ -160,7 +160,7 @@ public class AVLTree<K extends Comparable<K>, T>{
             return false;  
     }  
 
-    // rotate left at node x  
+    // rotate left at  node x  
     void leftRotate(AVLNode<K,T> x) {  
         AVLNode<K,T> y = x.right;  
         x.right = y.left;  
