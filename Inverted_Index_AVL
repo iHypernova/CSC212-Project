@@ -44,7 +44,7 @@ public class Inverted_Index_AVL {
         {  
             invertedindexAVL.Traverse();  
         }  
-       //=====================================================================  
+       //==================================================================  
         public boolean [] AND_OR_Function (String str )  
         {  
             if (! str.contains(" OR ") && ! str.contains(" AND "))  
