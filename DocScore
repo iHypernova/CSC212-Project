@@ -4,7 +4,7 @@ class DocScore {
 
     
     public DocScore(int docID) {
-        this.docID = docID;
+        this.docID = docID; 
         this.score = 0;
     }
 
